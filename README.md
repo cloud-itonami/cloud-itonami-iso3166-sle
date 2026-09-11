@@ -45,7 +45,7 @@ as every `cloud-itonami-iso3166-*` sibling in this fleet:
   iteration could NOT verify, such as whether/how a separately-listed
   'National Revenue Authority Act, 2022' relates to the 2002 Act, and
   CAC's own domain `cac.gov.sl` timing out on connection).
-- `src/statute/facts.cljc` -- general-law catalog: the Employment Act,
+- `src/statute/facts.cljk` -- general-law catalog: the Employment Act,
   2023 (labor, SierraLII), the Income Tax Act, 2000 (tax, National
   Revenue Authority's own consolidated edition), the Companies Act,
   2009 (company/commercial-entity law, own Part II establishes CAC),
@@ -74,7 +74,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Sierra Leone:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
